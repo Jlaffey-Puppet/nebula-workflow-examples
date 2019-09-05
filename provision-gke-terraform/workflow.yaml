@@ -13,7 +13,7 @@ steps:
     vars:
       gcp_region: us-east1
       gcp_location: us-east1-b
-      gcp_project: nebula1
+      gcp_project:  inner-wares-250721
     workspace: nebula1
     directory: provision-gke-terraform/infra/
     credentials:
