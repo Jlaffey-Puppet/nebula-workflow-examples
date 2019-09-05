@@ -1,8 +1,8 @@
 terraform {
   required_version = ">= 0.11.11"
   backend "gcs" {
-    bucket = "nebula1-demo"
-    prefix = "nebula1"
+    bucket = "jlnebula1"
+    prefix = "jlnebula1"
   }
 }
 
