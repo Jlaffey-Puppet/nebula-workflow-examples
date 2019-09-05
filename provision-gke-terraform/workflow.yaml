@@ -13,8 +13,8 @@ steps:
     vars:
       gcp_region: us-east1
       gcp_location: us-east1-b
-      gcp_project: kenazk-sandbox
-    workspace: nebula-demo
+      gcp_project: nebula1
+    workspace: nebula1
     directory: provision-gke-terraform/infra/
     credentials:
       credentials.json:
