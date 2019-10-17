@@ -16,7 +16,7 @@
          "spec": {  
             "apitoken": {
                "$type": "Secret",
-               "name": "slack-token"
+               "name": "json-slack"
             },
             "channel": "#nebula-workflows",
             "message": "If you see this, the Party LLama has successfully tested Nebula with JSON."
