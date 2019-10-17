@@ -18,10 +18,10 @@
                "$type": "Secret",
                "name": "slack-token"
             }
-         },
+         ,
             "channel": "#nebula-workflows",
             "message": "If you see this, the Party LLama has successfully tested Nebula with JSON."
-         ,
+         },
          "dependsOn": [
             "init-workflow"
          ]
