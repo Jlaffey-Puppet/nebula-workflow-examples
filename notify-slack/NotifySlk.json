@@ -14,7 +14,10 @@
          "name": "slack-notify",
          "image": "projectnebula/slack-notification:bf8ecb9",
          "spec": {  
-            "apitoken": "xoxp-426125542310-559546934400-738202865156-8f4d8ab787e08c8d294c6bfbd218c4b0",
+            "apitoken": {
+               "$type": "Secret",
+               "name": "slack-token"
+            },
             "channel": "#nebula-workflows",
             "message": "If you see this, the Party LLama has successfully tested Nebula with JSON."
          },
