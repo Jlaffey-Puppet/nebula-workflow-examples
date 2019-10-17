@@ -13,12 +13,12 @@
       {
          "name": "slack-notify",
          "image": "projectnebula/slack-notification:bf8ecb9",
-         "spec":  
+         "spec": {  
             "apitoken": {
                "$type": "Secret",
                "name": "slack-token"
             }
-         ,
+         },
             "channel": "#nebula-workflows",
             "message": "If you see this, the Party LLama has successfully tested Nebula with JSON."
          ,
